@@ -22,9 +22,10 @@ local FePunch = Instance.new("TextButton")
 local cloes = Instance.new("TextButton")
 
 --Properties:
+tutorial.Parent = game.CoreGui
 
 tutorial.Name = "tutorial"
-tutorial.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
 
 OpenFrame.Name = "OpenFrame"
 OpenFrame.Parent = tutorial
