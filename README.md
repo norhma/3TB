@@ -10656,3 +10656,8 @@ cloes.MouseButton1Down:connect(function()
 open.Visible = true
 main.Visible = false
 end)
+
+
+   local SayMessageRequest = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+SayMessageRequest:FireServer(" by NO_R7HMA",
+"All")
